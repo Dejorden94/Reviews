@@ -65,6 +65,12 @@ body {
         inset 0 -1rem 1rem -1rem rgba(0, 0, 0, .1);
 }
 
+.review:nth-of-type(4),
+.review:nth-of-type(5),
+.review:nth-of-type(6) {
+    display: none;
+}
+
 .quote {
     font-size: 500%;
     position: absolute;
