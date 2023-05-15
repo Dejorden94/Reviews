@@ -8,7 +8,9 @@ html {
     font-size: 62.5%;
 }
 
-body {}
+body {
+    font-size: 2rem;
+}
 
 .section {
     height: 100rem;
@@ -39,4 +41,9 @@ body {}
     width: 30rem;
     height: 30rem;
     background: darkred;
+}
+
+.review p {
+    font-size: 65%;
+    font-style: italic;
 }
