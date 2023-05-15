@@ -25,3 +25,18 @@ body {}
 .section--third {
     background: white;
 }
+
+.reviews {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.review {
+    list-style: none;
+    width: 30rem;
+    height: 30rem;
+    background: darkred;
+}
