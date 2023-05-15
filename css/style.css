@@ -11,6 +11,17 @@ html {
 body {}
 
 .section {
-    background: black;
     height: 100rem;
+}
+
+.section--first {
+    background: black;
+}
+
+.section--second {
+    background: darkblue;
+}
+
+.section--third {
+    background: white;
 }
