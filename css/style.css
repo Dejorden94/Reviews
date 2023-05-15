@@ -37,6 +37,9 @@ body {
 }
 
 .review {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
     list-style: none;
     width: 30rem;
     height: 30rem;
