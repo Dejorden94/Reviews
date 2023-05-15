@@ -27,10 +27,16 @@ body {
 
 .section--third {
     display: flex;
+    align-items: center;
     background: white;
+    height: auto;
+    padding: 4rem;
 }
 
 .arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 10%;
     height: 100%;
     background: white;
