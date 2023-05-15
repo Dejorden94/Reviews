@@ -111,3 +111,13 @@ body {
         filter: blur(0);
     }
 }
+
+@media screen and (max-width: 50rem) {
+    .arrow {
+        display: none;
+    }
+
+    .reviews {
+        width: 100%;
+    }
+}
