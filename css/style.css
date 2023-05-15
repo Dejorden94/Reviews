@@ -32,6 +32,15 @@ body {
 
 .arrow {
     width: 10%;
+    height: 100%;
+    background: white;
+    font-size: 300%;
+    outline: none;
+    border: none;
+}
+
+.arrow:hover {
+    cursor: pointer;
 }
 
 .reviews {
@@ -41,6 +50,7 @@ body {
     align-items: center;
     gap: 2rem;
     width: 80%;
+    flex-wrap: wrap;
 }
 
 .review {
