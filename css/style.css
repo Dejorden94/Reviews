@@ -38,6 +38,7 @@ body {
 }
 
 .review {
+    position: relative;
     padding: 4rem;
     list-style: none;
     width: 30rem;
@@ -46,6 +47,15 @@ body {
     border-radius: 0.5rem;
     box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2),
         inset 0 -1rem 1rem -1rem rgba(0, 0, 0, .1);
+}
+
+.quote {
+    font-size: 500%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0.5;
 }
 
 .stars {
